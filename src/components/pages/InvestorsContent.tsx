@@ -119,7 +119,7 @@ export default function InvestorsContent() {
             transition={{ ...serene, delay: 0.2 }}
             className="text-[17px] text-[#64748B] max-w-2xl mx-auto leading-relaxed mb-10"
           >
-            Tranquil AI represents a pivotal shift in accessible mental health. We are merging empathic AI with evidence-based structures to provide immediate care wherever and whenever it's needed.
+            Tranquil AI represents a pivotal shift in accessible mental health. We are merging empathic AI with evidence-based structures to provide immediate care wherever and whenever it&apos;s needed.
           </motion.p>
 
           <motion.div

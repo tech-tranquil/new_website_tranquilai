@@ -141,7 +141,7 @@ export default function EmployersContent() {
               transition={{ ...serene, delay: 0.1 }}
               className="text-[#64748B] text-[15px]"
             >
-              Get actionable insights into your organization's mental health with our comprehensive data.
+              Get actionable insights into your organization&apos;s mental health with our comprehensive data.
             </motion.p>
           </div>
 

@@ -223,7 +223,7 @@ export default function WhoWeServeContent() {
               Interested in Tranquil AI for your organization?
             </h2>
             <p className="text-[#64748B] text-[15px] md:text-[17px] mb-8 max-w-xl mx-auto leading-relaxed">
-              We'll design custom integrations to support your team's wellness journey.
+              We&apos;ll design custom integrations to support your team&apos;s wellness journey.
             </p>
             <a
               href="mailto:support@tranquilai.in?subject=B2B%20Inquiry"
