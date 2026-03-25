@@ -89,7 +89,7 @@ export default function Hero() {
             transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="mt-10 flex flex-wrap justify-center lg:justify-start gap-5 text-[13px] text-[#94A3B8] font-medium"
           >
-            {["40K+ Users", "150K+ Conversations", "Evidence-based"].map((item) => (
+            {["50K+ Users", "150K+ Conversations", "Evidence-based"].map((item) => (
               <span key={item} className="flex items-center gap-1.5">
                 <span className="w-1 h-1 rounded-full bg-[#3B82F6]" />
                 {item}

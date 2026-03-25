@@ -5,7 +5,7 @@ import { useRef } from "react";
 
 const tractionStats = [
   { value: "150K+", label: "Conversations" },
-  { value: "40K+", label: "Users" },
+  { value: "50K+", label: "Users" },
   { value: "50K+", label: "Mood Logs" },
   { value: "75+", label: "Hours Audio" },
 ];

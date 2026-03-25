@@ -68,7 +68,7 @@ const features = [
 ];
 
 const stats = [
-  { value: "40K+", label: "Users" },
+  { value: "50K+", label: "Users" },
   { value: "200K+", label: "Conversations" },
   { value: "85K+", label: "Mood Logs" },
   { value: "4.8★", label: "App Rating" },

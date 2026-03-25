@@ -139,7 +139,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-slate-800/60 flex flex-col md:flex-row items-center justify-between gap-3">
           <p className="text-slate-500 text-[11px]">
-            © 2025 Tranquil AI. All rights reserved.
+            © 2026 Tranquil AI. All rights reserved.
           </p>
           <p className="text-slate-500 text-[11px]">
             Made with care for mental wellness

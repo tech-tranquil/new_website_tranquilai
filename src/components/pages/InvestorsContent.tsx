@@ -8,7 +8,7 @@ const spring = { type: "spring" as const, stiffness: 180, damping: 22 };
 const serene = { duration: 0.7, ease: [0.16, 1, 0.3, 1] as const };
 
 const metrics = [
-  { label: "Total Users", value: "40K+", trend: "Organic Growth" },
+  { label: "Total Users", value: "50K+", trend: "Organic Growth" },
   { label: "Conversations", value: "200K+", trend: "High Engagement" },
   { label: "Mood Logs", value: "85K+", trend: "Daily Action" },
   { label: "Avg. Session", value: "7.5m", trend: "Deep Retention" },
