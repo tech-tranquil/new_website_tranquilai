@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
+import { asset } from "@/lib/asset";
 
 const navItems = [
   { href: "/", label: "Home" },
@@ -40,7 +41,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="group flex items-center gap-2.5 transition-all duration-300">
           <img 
-            src="/logo.png" 
+            src={asset("/logo.png")} 
             alt="Tranquil AI Logo" 
             className="w-9 h-9 object-contain drop-shadow-[0_2px_8px_rgba(37,99,235,0.2)] group-hover:drop-shadow-[0_4px_12px_rgba(37,99,235,0.35)] transition-all duration-300"
           />

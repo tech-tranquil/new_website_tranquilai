@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { asset } from "@/lib/asset";
 
 const navItems = [
   { href: "/", label: "Home" },
@@ -54,7 +55,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="group flex items-center gap-2.5 mb-4">
               <img
-                src="/logo.png"
+                src={asset("/logo.png")}
                 alt="Tranquil AI Logo"
                 className="w-8 h-8 object-contain"
               />

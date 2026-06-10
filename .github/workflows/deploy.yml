@@ -33,6 +33,10 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          # Serve correctly from the GitHub Pages project sub-path.
+          # Remove this line once the custom domain (root) is active.
+          NEXT_PUBLIC_BASE_PATH: /new_website_tranquilai
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { CalmShapes } from "../illustrations/CalmShapes";
+import { asset } from "@/lib/asset";
 
 const spring = { type: "spring" as const, stiffness: 180, damping: 22 };
 const serene = { duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] as const };
@@ -190,9 +191,9 @@ export default function AboutContent() {
               >
                 <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-gradient-to-br from-blue-50 to-indigo-50 flex items-center justify-center text-[#4A90D9] font-heading text-lg font-bold mb-4 border border-blue-100 transition-transform duration-300 group-hover:scale-110 overflow-hidden relative">
                   {member.image ? (
-                    <img 
-                      src={member.image} 
-                      alt={member.name} 
+                    <img
+                      src={asset(member.image)}
+                      alt={member.name}
                       className="w-full h-full object-cover"
                     />
                   ) : (
