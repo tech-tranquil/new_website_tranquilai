@@ -33,7 +33,6 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
           # Serve correctly from the GitHub Pages project sub-path.
           # Remove this line once the custom domain (root) is active.
           
